@@ -64,3 +64,8 @@
         max-width: 80%;
     }
 }
+@media  (max-width: 414px) {
+    .btn-comprar{
+        max-width: 100%;
+    }
+}
