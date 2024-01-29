@@ -1,2 +1,6 @@
-var nome = prompt('Como e seu nome?')
-alert(`É um prazer te ver por aqui ${nome}`)
+const botao = document.querySelector(".btn-plataforma");
+const elementoPlataformas = document.querySelector(".btn-plataforma .plataformas");
+
+botao.addEventListener("click", () => {
+    elementoPlataformas.classList.toggle("ativo");
+});
