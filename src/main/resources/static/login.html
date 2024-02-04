@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login - GTA V</title>
 
+    <!-- Adicione seus links de estilo aqui -->
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/estilos.css" />
     <link rel="stylesheet" href="/css/fontes.css" />
@@ -13,7 +14,7 @@
 <body class="login-body">
 <div class="login-container">
     <h2>Login</h2>
-    <form>
+    <form action="/login" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
 
@@ -21,10 +22,22 @@
         <input type="password" id="password" name="password" required>
 
         <button type="submit">Login</button>
-
-        <a href="register.html" class="log">Create accont.</a>
     </form>
+
+    <a href="register.html" class="log">Create account</a>
 </div>
 
+<div class="login-container">
+    <h2>Registrar Nova Conta</h2>
+    <form action="/register" method="post">
+        <label for="newUsername">Novo Username:</label>
+        <input type="text" id="newUsername" name="newUsername" required>
+
+        <label for="newPassword">Nova Senha:</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+
+        <button type="submit">Registrar</button>
+    </form>
+</div>
 </body>
 </html>
