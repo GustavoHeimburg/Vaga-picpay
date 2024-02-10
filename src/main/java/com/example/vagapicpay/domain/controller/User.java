@@ -1,4 +1,4 @@
-package com.example.vagapicpay.controller;
+package com.example.vagapicpay.domain.controller;
 
 public class User {
 

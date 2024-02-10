@@ -1,4 +1,4 @@
-package com.example.vagapicpay.controller;
+package com.example.vagapicpay.domain.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
