@@ -1,4 +1,8 @@
 package com.example.vagapicpay.domain.repositories;
 
-public interface UserRepository  {
+import org.apache.catalina.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+
 }
