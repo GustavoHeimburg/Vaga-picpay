@@ -11,12 +11,10 @@ public class UserController {
     public String login(String username, String password) {
         return "redirect:/home";
     }
-
     @PostMapping("/register")
 public String register (String newUserName, String newPassword){
-return "redirect:/home";
+    return "redirect:/home";
     }
-
 @RequestMapping("/home")
 public String home(){
     return "home";
